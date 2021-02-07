@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>DayBreak</title>
-	<link rel="stylesheet" type="text/css" href="./index.css">
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-</head>
-<body>
-	 <div id="gradient" />
-	<script type="text/javascript" >
-	
+
 var colors = new Array(
     [62, 35, 255],
     [60, 255, 60],
@@ -71,7 +59,3 @@ function updateGradient() {
 }
 
 setInterval(updateGradient, 10);
-</script>
-</body>
-
-</html>
